@@ -1,0 +1,20 @@
+{
+  "name": "Code WOW - בניית אתרים ברמה אחרת",
+  "short_name": "Code WOW",
+  "description": "בניית אתרים ודפי נחיתה בעיצוב יוקרתי וממיר",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff4d6d",
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "he",
+  "icons": [
+    {
+      "src": "/favicon-code.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
