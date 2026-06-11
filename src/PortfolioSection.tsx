@@ -41,17 +41,25 @@ export function PortfolioSection() {
     }
   };
 
-  const defaultItem = {
+// שנה את החלק הזה בקוד:
+const defaultItems = [
+  {
     title: 'tzadikim1.org',
     description: 'אתר מודרני ומרשים המשלב עיצוב ייחודי עם חווית משתמש מעולה',
     link: 'https://tzadikim1.org/'
-  };
+  },
+  {
+    title: 'ספר קריאה דיגיטלי',
+    description: 'חווית לימוד קריאה קסומה, חדשנית ומרגשת לילדים',
+    link: 'https://sweet-reading-experience.lovable.app/'
+  }
+];
 
-  const allItems = [defaultItem, ...portfolioItems.map(item => ({
-    title: item.title || '',
-    description: item.description || '',
-    link: item.link
-  }))];
+const allItems = [...defaultItems, ...portfolioItems.map(item => ({
+  title: item.title || '',
+  description: item.description || '',
+  link: item.link
+}))];
 
   return (
     <section id="portfolio" className="relative py-12 px-6 bg-gradient-to-b from-black via-[#590d22]/5 to-black overflow-hidden">
