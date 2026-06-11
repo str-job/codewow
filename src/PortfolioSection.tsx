@@ -49,7 +49,7 @@ const defaultItems = [
     link: 'https://tzadikim1.org/'
   },
   {
-    title: 'ספר קריאה דיגיטלי',
+    title: 'דף נחיתה לספר קריאה חדשני',
     description: 'חווית לימוד קריאה קסומה, חדשנית ומרגשת לילדים',
     link: 'https://sweet-reading-experience.lovable.app/'
   }
